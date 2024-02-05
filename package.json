@@ -1,0 +1,23 @@
+{
+  "name": "agenciaviajesnoder",
+  "version": "1.0.0",
+  "description": "Mi primer projecto Node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start" : "node index.js"
+  },
+  "type": "module",
+  "author": "Rony Marcia",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1",
+    "pug": "^3.0.2",
+    "sequelize": "^6.36.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
